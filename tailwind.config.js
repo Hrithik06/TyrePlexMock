@@ -8,7 +8,7 @@ export default {
         // Add more custom font families as needed
       },
       screens: {
-        smallphone: "320px",
+        laptop: "1440px",
       },
     },
   },

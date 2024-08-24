@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* .hideHorizontalScrollBar::-webkit-scrollbar {
+    display: none;
+} */
+
+/* Hide scrollbar for IE, Edge and Firefox */
+/* .hideHorizontalScrollBar {
+    overflow-x: scroll;
+    -ms-overflow-style: none; */
+/* IE and Edge */
+/* scrollbar-width: none; */
+/* Firefox */
+/* } */
+
+
+/* Default styles for all devices */
+.hideHorizontalScrollBar {
+    overflow-x: scroll;
+
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) on tablets and phones */
+@media screen and (max-width: 1024px) {
+    .hideHorizontalScrollBar::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox on tablets and phones */
+@media screen and (max-width: 1024px) {
+    .hideHorizontalScrollBar {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    /* width: 10px; */
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d2d9e6;
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #a4b5ce;
+}

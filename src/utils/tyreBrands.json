@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Michelin",
+    "logoUrl": "https://www.carlogos.org/tire-logos/michelin-logo-3600x700.png"
+  },
+  {
+    "name": "Bridgestone",
+    "logoUrl": "https://www.carlogos.org/tire-logos/bridgestone-logo-5500x1200.png"
+  },
+  {
+    "name": "Goodyear",
+    "logoUrl": "https://www.carlogos.org/tire-logos/goodyear-logo-3000x900.png"
+  },
+  {
+    "name": "Continental",
+    "logoUrl": "https://www.carlogos.org/tire-logos/continental-logo-black-on-gold.png"
+  },
+  {
+    "name": "Pirelli",
+    "logoUrl": "https://www.carlogos.org/tire-logos/pirelli-logo-2100x550.png"
+  },
+  {
+    "name": "Hankook",
+    "logoUrl": "https://www.carlogos.org/tire-brands-logos/Hankook-logo-5500x1000.png"
+  },
+  {
+    "name": "Dunlop",
+    "logoUrl": "https://www.carlogos.org/tire-logos/dunlop-logo-2200x500.png"
+  },
+  {
+    "name": "Toyo",
+    "logoUrl": "https://www.carlogos.org/tire-logos/toyo-logo-2200x700.png"
+  },
+  {
+    "name": "Yokohama",
+    "logoUrl": "https://www.carlogos.org/tire-brands-logos/Yokohama-logo-5100x800.png"
+  },
+  {
+    "name": "CEAT",
+    "logoUrl": "https://www.carlogos.org/tire-brands-logos/CEAT-Tyre-logo-2000x1000.png"
+  },
+  {
+    "name": "JKTyre",
+    "logoUrl": "https://www.carlogos.org/tire-brands-logos/JK-Tyre-logo-2700x700.png"
+  }
+]
