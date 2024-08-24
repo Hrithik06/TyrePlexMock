@@ -12,7 +12,9 @@ export default function App() {
     <div className=" font-roboto ">
       <Header />
       <Container>
-        {/* <Services /> */}
+        <ReviewCard />
+        <BrandCard />
+        <Services />
         <ProductCard />
       </Container>
     </div>

@@ -6,6 +6,7 @@ import ProductCard from "./Cards/ProductCard";
 import Container from "./Container/Container";
 import Services from "./Services";
 import Deals from "./Deals";
+import Tooltip from "./Cards/Tooltip";
 export {
   Header,
   BrandCard,
@@ -15,4 +16,5 @@ export {
   Container,
   Services,
   Deals,
+  Tooltip,
 };

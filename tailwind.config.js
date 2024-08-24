@@ -7,6 +7,9 @@ export default {
         roboto: ["Roboto", "sans-serif"],
         // Add more custom font families as needed
       },
+      screens: {
+        smallphone: "320px",
+      },
     },
   },
   plugins: [],
