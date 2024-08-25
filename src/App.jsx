@@ -1,5 +1,4 @@
 import React from 'react';
-import TestCard from './components/Cards/TestCard';
 import {
     Header,
     Container,
