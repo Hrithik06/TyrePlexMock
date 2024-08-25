@@ -17,6 +17,7 @@ import ProductContainer from './Container/ProductContainer';
 import Payment from './Payment';
 import Question from './Question';
 import Dropdown from './Dropdown';
+import BreadCrumbs from './BreadCrumbs';
 export {
     Header,
     BrandCard,
@@ -36,4 +37,5 @@ export {
     Payment,
     Question,
     Dropdown,
+    BreadCrumbs,
 };

@@ -9,6 +9,7 @@ import {
     ProductContainer,
     Payment,
     Question,
+    BreadCrumbs,
 } from './components/index';
 export default function App() {
     return (
@@ -21,6 +22,7 @@ export default function App() {
                 <Services />
                 <BrandContainer />
                 <ProductContainer />
+                <BreadCrumbs />
                 <Payment />
                 <Question />
             </Container>
