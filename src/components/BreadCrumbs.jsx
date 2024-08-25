@@ -2,14 +2,14 @@ import React from 'react';
 
 const BreadCrumbs = () => {
     return (
-        <div>
+        <div className=" w-full rounded-md p-3">
             {/* <!--Third breadcrumb--> */}
-            <nav class="w-full rounded-md">
-                <ol class="list-reset flex">
+            <nav class=" ">
+                <ol class="list-reset flex ">
                     <li>
                         <a
                             href="#"
-                            class="text-primary transition duration-150 ease-in-out hover:text-primary-accent-300 focus:text-primary-accent-300 active:text-primary-accent-300 motion-reduce:transition-none dark:text-primary-400"
+                            class="text-primary transition duration-150 ease-in-out hover:text-primary-accent-300 focus:text-primary-accent-300 active:text-primary-accent-300 motion-reduce:transition-none "
                         >
                             Home
                         </a>
@@ -20,7 +20,7 @@ const BreadCrumbs = () => {
                     <li>
                         <a
                             href="#"
-                            class="text-primary transition duration-150 ease-in-out hover:text-primary-accent-300 focus:text-primary-accent-300 active:text-primary-accent-300 motion-reduce:transition-none dark:text-primary-400"
+                            class="text-primary transition duration-150 ease-in-out hover:text-primary-accent-300 focus:text-primary-accent-300 active:text-primary-accent-300 motion-reduce:transition-none "
                         >
                             Tyre Dealers GHaziabad
                         </a>
@@ -31,7 +31,7 @@ const BreadCrumbs = () => {
                     <li>
                         <a
                             href="#"
-                            class="text-primary transition duration-150 ease-in-out hover:text-primary-accent-300 focus:text-primary-accent-300 active:text-primary-accent-300 motion-reduce:transition-none dark:text-primary-400"
+                            class="text-primary transition duration-150 ease-in-out hover:text-primary-accent-300 focus:text-primary-accent-300 active:text-primary-accent-300 motion-reduce:transition-none "
                         >
                             Tyre Dealers
                         </a>
