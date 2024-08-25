@@ -7,7 +7,7 @@ const BrandCard = ({ brand }) => {
             <div className="mx-2 xl:mx-6">
                 <img src={brand.logoUrl} alt="" className="w-full" />
             </div>
-            <div>{brand.name}</div>
+            <div>{brand.brandName}</div>
         </div>
     );
 };

@@ -13,8 +13,10 @@ import Container from './Container/Container';
 import PhotosContainer from './Container/PhotosContainer';
 import ReviewsContainer from './Container/ReviewsContainer';
 import BrandContainer from './Container/BrandContainer';
+import ProductContainer from './Container/ProductContainer';
 import Payment from './Payment';
 import Question from './Question';
+import Dropdown from './Dropdown';
 export {
     Header,
     BrandCard,
@@ -30,6 +32,8 @@ export {
     PhotosContainer,
     ReviewsContainer,
     BrandContainer,
+    ProductContainer,
     Payment,
     Question,
+    Dropdown,
 };
