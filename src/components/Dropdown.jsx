@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
+
 const animatedComponents = makeAnimated();
+
 const mobileStyles = {
     control: (provided) => ({
         ...provided,
@@ -28,6 +30,7 @@ const mobileStyles = {
         },
     }),
 };
+
 const Dropdown = ({
     dropDownOptions,
     onDropdownChange,
@@ -41,8 +44,23 @@ const Dropdown = ({
         onDropdownChange(selectedOption);
     };
     const [options, setOptions] = useState([]);
+    const [isMobile, setIsMobile] = useState(false);
+
     useEffect(() => {
         setOptions(dropDownOptions.map((opt) => ({ label: opt, value: opt })));
+    }, []);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 640); // Adjust the breakpoint as needed
+        };
+
+        handleResize(); // Check initial screen size
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
     }, []);
 
     return (
@@ -56,6 +74,7 @@ const Dropdown = ({
                 styles={mobileStyles}
                 menuPlacement="auto"
                 menuPosition="absolute"
+                isSearchable={!isMobile}
             />
         </div>
     );
